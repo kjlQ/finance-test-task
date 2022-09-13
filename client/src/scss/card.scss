@@ -1,0 +1,11 @@
+.card {
+  .item {
+    grid-template-columns: 1fr 1fr;
+    div {
+      height: 24px;
+    }
+    .value {
+      text-align: right;
+    }
+  }
+}

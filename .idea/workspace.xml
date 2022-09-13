@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9cc8de6-cc6f-41b4-9c41-926fde18e1d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/BackButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Loader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Stock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Card.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Stocks.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/redux/slices/financeSlice.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/backButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/loader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/scss/stocks.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663070744318</updated>
-      <workItem from="1663070748236" duration="3771000" />
+      <workItem from="1663070748236" duration="17484000" />
     </task>
     <servers />
   </component>

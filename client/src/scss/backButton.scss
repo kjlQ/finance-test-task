@@ -1,0 +1,25 @@
+.button {
+  position: absolute;
+  top: 20px;
+  animation: anim1 1.4s ease-in-out;
+  button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 15px;
+    background: #abf7b1;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #137333;
+    cursor: pointer;
+  }
+}
+
+@keyframes anim1 {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 20px;
+  }
+}

@@ -1,0 +1,48 @@
+.stocks,.card {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  .table-title {
+    font-size: 20px;
+    color: #fff;
+    font-family: Bahnschrift;
+    font-weight: 400;
+    margin: 20px 0;
+  }
+  .item {
+    border-top: 1px solid darkgray;
+    padding : 20px 5px;
+    color: #fff;
+    width: 400px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 2fr 1fr 1fr;
+    transition: .2s;
+    &:hover {
+      background: #282828;
+      cursor: pointer;
+    }
+    .percent {
+      text-align: end;
+      .profitable {
+        color: #137333;
+        background: #abf7b1;
+      }
+      .profitless {
+        color: #a50e0e;
+        background: #ff7f7f;
+        svg {
+          transform: rotate(180deg);
+        }
+      }
+      span {
+        padding: 0 5px;
+        border-radius: 5px;
+        display: inline-flex;
+        align-items: center;
+        height: 24px;
+      }
+    }
+  }
+}
