@@ -23,3 +23,13 @@
     top: 20px;
   }
 }
+
+.listening-buttons {
+  top: 0;
+  position: absolute;
+  grid-gap: 20px;
+  display: flex;
+  .button {
+    position: relative;
+  }
+}

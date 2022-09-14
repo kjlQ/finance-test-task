@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
-import {useParams} from 'react-router-dom';
+import {useNavigate, useParams} from 'react-router-dom';
 import {useSelector} from 'react-redux'
 import Loader from "../components/Loader";
-import BackButton from "../components/BackButton";
+import Button from "../components/Button";
 
-const attributes = [
+const attributes = [  // attributes to withdraw data in cycle
     {name: "Company Name", value: "ticker"},
     {name: "Price", value: "price"},
     {name: "Change", value: "change"},
@@ -14,9 +14,9 @@ const attributes = [
 ]
 
 const Card = () => {
-    const [stock, setStock] = useState()
-
-    const {stockCompany} = useParams()
+    const [stock, setStock] = useState() // it should be picked stock
+    const {stockCompany} = useParams() // take param from the link
+    const navigate = useNavigate()
 
     const {stocks} = useSelector(state => state.financeSlice)
 
@@ -31,7 +31,7 @@ const Card = () => {
     }
     return (
         <div className="card">
-            <BackButton/>
+            <Button action={()=>navigate(-1)} title="back" />
             <div className="card-container">
                 <h1 className="table-title">{stock.ticker}</h1>
                 {attributes.map(item => (
