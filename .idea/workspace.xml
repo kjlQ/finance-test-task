@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9cc8de6-cc6f-41b4-9c41-926fde18e1d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/BackButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Loader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Stock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/pages/Stocks.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/slices/financeSlice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/backButton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/loader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/scss/stocks.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Stocks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Stocks.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +23,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/www/finance-test-task",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/www/finance-test-task&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +41,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663070744318</updated>
-      <workItem from="1663070748236" duration="17484000" />
+      <workItem from="1663070748236" duration="17861000" />
+      <workItem from="1663148687388" duration="2867000" />
     </task>
     <servers />
   </component>

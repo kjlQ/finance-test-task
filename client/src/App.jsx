@@ -9,16 +9,28 @@ import {io} from "socket.io-client";
 import { useDispatch} from 'react-redux'
 
 function App() {
-    const socket = io.connect('http://localhost:4000')
     const dispatch = useDispatch()
+    const socket = io('http://localhost:4000')
 
     useEffect(()=> {
+        handleStart()
+    },[])
+
+    const handleStart = () => {
+        socket.connect()
         socket.emit('start')
         socket.on('ticker',e=>dispatch(changeStocks(e)))
-    },[])
+    }
+
+    const handleStop = () => {
+        socket.disconnect()
+    }
 
   return (
     <div className="App">
+        <button onClick={()=> handleStart()}>start</button>
+        <button onClick={()=> handleStop()}>stop</button>
+        <button onClick={()=> console.log(socket)}>socket</button>
       <Routes>
           <Route path={'/'} element={<Stocks />} />
           <Route path={'/:stockCompany'} element={<Card />} />
