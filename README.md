@@ -1,6 +1,16 @@
 
 # React Test Task
 
+## Executed Bonus Tasks
+
+*The possibility to switch on/off tickers by user
+-main page
+
+*Any additional functionality you consider useful
+-When you click on Stokes, go to a detailed page
+-Back button on detail page
+-Loading screen
+
 ## Requirements
 
 We need you to implement a solution to display price tickers data on the UI in realtime.
