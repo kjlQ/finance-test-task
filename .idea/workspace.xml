@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9cc8de6-cc6f-41b4-9c41-926fde18e1d8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BackButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Stocks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Stocks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/backButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,14 @@
       <option name="presentableId" value="Default" />
       <updated>1663070744318</updated>
       <workItem from="1663070748236" duration="17861000" />
-      <workItem from="1663148687388" duration="10118000" />
+      <workItem from="1663148687388" duration="10964000" />
+      <workItem from="1663170327056" duration="320000" />
+      <workItem from="1663183084172" duration="382000" />
+      <workItem from="1663183494063" duration="129000" />
+      <workItem from="1663251624860" duration="353000" />
+      <workItem from="1663255088825" duration="585000" />
+      <workItem from="1663262810551" duration="593000" />
+      <workItem from="1663309196996" duration="2223000" />
     </task>
     <servers />
   </component>
